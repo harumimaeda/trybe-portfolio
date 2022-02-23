@@ -1,0 +1,10 @@
+body{
+    font-family: Barlow, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    padding: 0.5em 1em;
+    border-radius: 99px;
+    border: none;
+    background-color: rgb(241, 158, 237);
+}
