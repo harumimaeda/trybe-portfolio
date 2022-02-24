@@ -1,5 +1,7 @@
 body{
     font-family: Barlow, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(51, 51, 51);
+    font-size: 16px;
 }
 
 p{
@@ -13,18 +15,23 @@ strong{
 h1, h2, h3, h4, h5, h6{
     text-transform: uppercase;
     letter-spacing: 1px;
+    color: #32a883;
 }
 
 button{
-    padding: 0.5em 1em;
+    padding: 13px 35px;
     border-radius: 99px;
     border: none;
-    background-color: rgb(241, 158, 237);
+    background-color: #32a883;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 
 button:hover{
-    background-color:rgb(207, 106, 202);
+    background-color:#208565;
 }
 
 .meta{
@@ -35,9 +42,11 @@ button:hover{
 #habilidades{
     border-collapse: collapse;
     width: 70%;
+    vertical-align: middle;
+    height: 80px;
 }
 
 #habilidades td, th{
-    border: 1px solid grey;
+    border: 1px solid #32a88380;
     padding: 10px;
 }
