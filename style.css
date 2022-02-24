@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: Barlow, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(51, 51, 51);
     font-size: 16px;
@@ -49,4 +50,32 @@ button:hover{
 #habilidades td, th{
     border: 1px solid #32a88380;
     padding: 10px;
+}
+
+/* Menu */
+
+.logo{
+    padding: 800px;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #32a883;
+}
+
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a.active{
+    background-color: #208565;
+}
+
+.topnav a:hover{
+    background-color: #208565;
 }
