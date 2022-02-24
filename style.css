@@ -2,9 +2,42 @@ body{
     font-family: Barlow, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+p{
+    line-height: 1.5;
+}
+
+strong{
+    font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 button{
     padding: 0.5em 1em;
     border-radius: 99px;
     border: none;
     background-color: rgb(241, 158, 237);
+}
+
+
+button:hover{
+    background-color:rgb(207, 106, 202);
+}
+
+.meta{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#habilidades{
+    border-collapse: collapse;
+    width: 70%;
+}
+
+#habilidades td, th{
+    border: 1px solid grey;
+    padding: 10px;
 }
