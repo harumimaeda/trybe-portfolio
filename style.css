@@ -18,7 +18,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+{
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #32a883;
@@ -86,7 +86,7 @@ button:hover {
 
 /* Tabela - Habilidades */
 
-.meta {
+.meta-text {
   font-size: 12px;
   font-weight: 500;
 }
@@ -102,4 +102,24 @@ button:hover {
 th {
   border: 1px solid #32a88380;
   padding: 10px;
+}
+
+/* Background */
+
+.bg-primary{
+  background-color: #32a883;
+  color: #FFF;
+  padding: 15px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Link modifier */
+.link-muted{
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-muted:hover{
+  text-decoration: underline;
 }
