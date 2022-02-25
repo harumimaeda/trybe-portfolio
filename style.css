@@ -35,6 +35,53 @@ button:hover{
     background-color:#208565;
 }
 
+/* Menu */
+
+.topnav{
+    overflow: hidden;
+    background-color: #32a883;
+}
+
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 45px;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 17px;
+}
+
+.topnav p{
+    float: left;
+    color: #f2f2f2;
+    padding: 0 50px;
+    line-height: 0.6;
+    font-size: 19px;
+}
+
+.topnav a.active{
+    background-color: #208565;
+}
+
+.topnav a:hover{
+    background-color: #208565;
+}
+
+/* Foto */
+
+#foto-harumi{
+    border-radius: 50%;
+}
+
+/* Header */
+
+#body{
+    padding: 0 20px;
+}
+
+/* Tabela - Habilidades */
+
 .meta{
     font-size: 12px;
     font-weight: 500;
@@ -50,32 +97,4 @@ button:hover{
 #habilidades td, th{
     border: 1px solid #32a88380;
     padding: 10px;
-}
-
-/* Menu */
-
-.logo{
-    padding: 800px;
-}
-
-.topnav{
-    overflow: hidden;
-    background-color: #32a883;
-}
-
-.topnav a{
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
-
-.topnav a.active{
-    background-color: #208565;
-}
-
-.topnav a:hover{
-    background-color: #208565;
 }
