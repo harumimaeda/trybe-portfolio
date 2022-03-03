@@ -16,134 +16,111 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
-    <!-- Menu -->
-    <!-- Requisito 8 - Um índice com links internos para as diferentes seções do seu portfólio. -->
     <div class="topnav">
-      <p><strong>harumi</strong>maeda</p>
-      <!-- Requisito 5 - Um link interno para a sua foto; -->
-      <a href="#foto-harumi" class="active">Foto</a>
-      <a href="#sobre-mim">Sobre mim</a>
+      <p class="logo"><strong>harumi</strong>maeda</p>
+
+      <a href="#fotoHarumi" class="active">Foto</a>
+      <a href="#aboutMe">Sobre mim</a>
       <a href="#skills">Habilidades</a>
       <a href="#contecte-se">Conecte-se comigo</a>
     </div>
 
-    <!-- Header -->
     <section id="body">
-      <section id="header">
-        <h1>Portfólio</h1>
-        <!-- Requisito 2 - Uma foto atual sua, acompanhada de um texto alternativo, que deve ser a descrição da foto que você está usando; -->
-        <img
-          src="teste.jpg"
-          alt="Foto de perfil da Harumi Maeda"
-          width="100px"
-          id="foto-harumi"
-        />
-        <!-- Requisito 1 - Nome completo -->
-        <h2>Isabela Harumi Ueti Maeda</h2>
+      <!-- Header -->
+      <section>
+        <h1 id="title">Isabela Harumi Ueti Maeda</h1>
 
-        <hr />
-      </section>
+        <div id="profile">
+          <img
+            src="teste.jpg"
+            alt="Foto de perfil da Harumi Maeda"
+            width="100px"
+            id="fotoHarumi"
+          />
 
-      <!-- Sobre mim -->
-      <section id="sobre-mim">
-        <h3>Sobre mim</h3>
-        <!-- Requisito 3 - Uma breve descrição sobre você, destacando algumas informações como nacionalidade e a cidade/estado onde mora;
-            Requisito 7 - Partes do seu portfólio destacadas com negrito e/ou itálico; -->
-        <p>
-          Eu sou a Harumi, tenho 24 anos e sou de
-          <strong>São Paulo, SP</strong>. Fiquem à vontade para me chamar de
-          <strong>Haru</strong>, <strong>Há</strong> ou
-          <strong>haruchu</strong> (que é meu nick nos joguinhos!).<br />
-          Me formei em <strong>Design</strong> em 2019 e antes disso, fiz um
-          técnico em <strong>Comunicação Visual</strong> - sempre tive um lado
-          criativo, mas parei de me encontrar na área quando trabalhei em uma
-          startup (na área de <em>Marketing</em>) e conheci a rotina do pessoal
-          de tecnologia. Fiquei encantada com a produção e como as coisas podem
-          acontecer rápido dentro da área.
-        </p>
-        <p>
-          Sobre mim, gosto muito de
-          <strong>joguinhos eletrônicos</strong> (atualmente só jogo
-          <a href="https://br.op.gg/summoners/br/haruchu" target="_blank"
-            >lolzinho</a
-          >
-          e vavá, mas às vezes perco umas boas horas em Terraria ou em uns
-          single player), <strong>aprender idiomas</strong> (em 2022 consegui
-          passar no nível 5 na prova de proficiência de japonês estudando por
-          conta própria) e <strong>fazer coisas manuais/diy</strong>, como
-          encadernação, bordado, velas, sabonetes e etc. Também me interesso
-          muito pela cultura asiática de modo geral, e ultimamento venho criando
-          mais interesse pelos países do sudeste asiático, pensando em, um dia,
-          fazer um mochilão por lá.
-        </p>
-
-        <hr />
+          <h2 class="pb-3">Sobre mim</h2>
+          <p>
+            Eu sou a Harumi, tenho 24 anos e sou de
+            <strong>São Paulo, SP</strong>. Fiquem à vontade para me chamar de
+            <strong>Haru</strong>, <strong>Há</strong> ou
+            <strong>haruchu</strong> (que é meu nick nos joguinhos!).<br />
+            Me formei em <strong>Design</strong> em 2019 e antes disso, fiz um
+            técnico em <strong>Comunicação Visual</strong> - sempre tive um lado
+            criativo, mas parei de me encontrar na área quando trabalhei em uma
+            startup (na área de <em>Marketing</em>) e conheci a rotina do
+            pessoal de tecnologia. Fiquei encantada com a produção e como as
+            coisas podem acontecer rápido dentro da área.
+          </p>
+          <p>
+            Sobre mim, gosto muito de
+            <strong>joguinhos eletrônicos</strong> (atualmente só jogo
+            <a href="https://br.op.gg/summoners/br/haruchu" target="_blank"
+              >lolzinho</a
+            >
+            e vavá, mas às vezes perco umas boas horas em Terraria ou em uns
+            single player), <strong>aprender idiomas</strong> (em 2022 consegui
+            passar no nível 5 na prova de proficiência de japonês estudando por
+            conta própria) e <strong>fazer coisas manuais/diy</strong>, como
+            encadernação, bordado, velas, sabonetes e etc. Também me interesso
+            muito pela cultura asiática de modo geral, e ultimamento venho
+            criando mais interesse pelos países do sudeste asiático, pensando
+            em, um dia, fazer um mochilão por lá.
+          </p>
+        </div>
       </section>
 
       <!-- Skills -->
       <section id="skills">
         <!-- Requisito 4 - Uma lista de habilidades que você possui, com destaque para aquela de que você mais se orgulha; -->
-        <h3>Habilidades</h3>
-
-        <table id="habilidades">
+        <h2>Habilidades</h2>
+        <table>
           <tr>
-            <th><h4>Hard Skills</h4></th>
-            <th><h4>Soft Skills</h4></th>
-            <th colspan="2"><h4>Idiomas</h4></th>
+            <td><h3>Hard Skills</h3></td>
+            <td><h3>Soft Skills</h3></td>
+            <td><h3>Idiomas</h3></td>
           </tr>
           <tr>
-            <td>Conhecimentos em Design</td>
-            <td>Proatividade</td>
             <td>
-              <img
-                src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/flag-brazil_1f1e7-1f1f7.png"
-                width="25px"
-              />
-              Português
-            </td>
-            <td>Nativo</td>
-          </tr>
-          <tr>
-            <td>Adobe Photoshop e Adobe Illustrator</td>
-            <td>Teste</td>
-            <td>
-              <img
-                src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/flag-united-states_1f1fa-1f1f8.png"
-                width="25px"
-              />
-              Inglês
+              <ul>
+                <li>Conhecimentos em Design</li>
+                <li>Adobe Photoshop e Adobe Illustrator</li>
+                <li>HTML e CSS</li>
+              </ul>
             </td>
             <td>
-              Avançado<br />
-              <span class="meta-text"
-                >Certificado A1 emitido em 2020 pela ILSC Melbourne.</span
-              >
-            </td>
-          </tr>
-          <tr>
-            <td>HTML e CSS</td>
-            <td>teste</td>
-            <td>
-              <img
-                src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/apple/285/flag-japan_1f1ef-1f1f5.png"
-                width="25px"
-              />
-              Japonês
+              <ul>
+                <li>Proatividade</li>
+                <li>Teste</li>
+                <li>Teste</li>
+              </ul>
             </td>
             <td>
-              Básico<br />
-              <span class="meta-text"
-                >Certificado JLPT N5 emitido em 2022 pela Japan
-                Foundation.</span
-              >
+              <ul>
+                <li>Português: Nativo</li>
+                <li>
+                  Inglês: Avançado<br />
+                  <span class="metaText"
+                    >Certificado A1 emitido em 2020 pela ILSC Melbourne.</span
+                  >
+                </li>
+                <li>
+                  Japonês: Básico<br />
+                  <span class="metaText"
+                    >Certificado JLPT N5 emitido em 2022 pela Japan
+                    Foundation.</span
+                  >
+                </li>
+              </ul>
             </td>
           </tr>
         </table>
       </section>
-
-      <section id="contecte-se">
-        <h4>Conecte-se comigo! :)</h4>
+    </section>
+    <section id="connect">
+      <div id="connectContent">
+        <h3 class="pb-4">Conecte-se comigo! :)</h3>
 
         <table>
           <tr>
@@ -189,18 +166,12 @@
             </td>
           </tr>
         </table>
-      </section>
+      </div>
     </section>
 
     <footer class="bg-primary">
-      <h3><strong>harumi</strong>maeda</h3>
+      <p class="pb-3 logo"><strong>harumi</strong>maeda</p>
       <p>made with <i class="fa-solid fa-heart"></i> in são paulo, brazil</p>
-
-      <div>
-        <a href="#" target="_blank" class="link-muted meta-text"
-          >política de privacidade</a
-        >
-      </div>
     </footer>
   </body>
 </html>
